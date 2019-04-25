@@ -1,0 +1,69 @@
+@font-face {
+    font-family: pixeled;
+    src: url(../fonts/Pixeled.ttf);
+  }
+
+body {
+    background: url(../images/stars.gif);
+    background-attachment: fixed;
+    font-family: pixeled;
+    text-align: center;
+}
+.divider {
+     max-width: 90%;
+     margin-top: 40px;
+ }
+.white-box {
+    background-color: white;
+    max-width: 90%;  
+    text-align: center;      
+    align-items: center;
+    min-height: 100px;
+    border: 6px ridge #bbb;
+    box-shadow: 10px 10px 5px black;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.title {  
+    padding: 0 10px;
+    background: url(../images/microfab.gif);
+    text-shadow: 2px 2px 1px white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    width: 90%;
+}
+
+.mchammer {
+    height: 80px;
+}
+
+.player {
+    height: 300px;
+}
+
+.contact {
+    max-width: 600px;
+    width: 90%;    
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 1px white;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
